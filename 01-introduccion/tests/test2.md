@@ -63,8 +63,20 @@ Which of the lines are valid? (choose 3)
 
 <br>
 
+**Question 4**: Which of the lines are valid? (choose 3)
+
+- a. var connection = DriverManager.getConnection(host, user, pass);
+- b. var ej = 3/0;
+- c. var cad = "";
+- d. var n = null;
+- e. var c, p = 10;
+- f. var [] n = new int[4];
+
+<br>
+
 **Results**:
 
 - **Question 1**: c, d, g
 - **Question 2**: e
 - **Question 3**: a, c, g
+- **Question 4**: a, b, c

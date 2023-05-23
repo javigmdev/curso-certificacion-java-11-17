@@ -6,7 +6,7 @@
 **Sección 1**: Introducción
 
 - 1. Declaración, inicialización y tipos de variables
-  - 1.1 Declaración de variables
+  - 1.1. Declaración de variables
   - 1.2. Identificadores
   - 1.3. Ámbito de las variables
   - 1.4. Inicialización por defecto
@@ -24,3 +24,20 @@
   - 3.1. Uso
   - 3.2. Autoboxing/unboxing
   - 3.3. Inmutabilidad de objetos
+- 4. Inferencia de tipos
+  - 4.1. Var
+- 5. Operadores Java
+  - 5.1. Aritméticos
+  - 5.2. Asignación
+  - 5.3. Condicionales
+  - 5.4. Lógicos
+  - 5.5. Otros
+- 6. Igualdad de objetos
+  - 6.1. Operador ==
+  - 6.2. Igualdad de cadenas
+  - 6.3. Pool de cadenas
+  - 6.4. Igualdad de objetos de envoltorio
+  - 6.5. Igualdad de StringBuilder
+  - 6.6. Inmutabilidad de objetos String
+
+**Sección 2**: Estructuras de control de flujo
