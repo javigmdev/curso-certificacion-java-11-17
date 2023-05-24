@@ -136,6 +136,6 @@ public class TestClass {
 
 - **Question 1**: b
 - **Question 2**: d // switch permite constantes siempre que se les asignen su valor durante la declaración
-- **Question 3**: a, b, e // byte, short e Integer se pueden convertir implícitamente a int (unboxing)
+- **Question 3**: a, b, f // byte, short e Integer se pueden convertir implícitamente a int (unboxing)
 - **Question 4**: e
 - **Question 5**: c
