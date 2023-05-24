@@ -41,3 +41,12 @@
   - 6.6. Inmutabilidad de objetos String
 
 **Sección 2**: Estructuras de control de flujo
+
+- 1. Operador if y ternario
+  - 1.1. If
+  - 1.2. Operador ternario
+- 2. Switch
+  - 2.1. Instrucción switch
+  - 2.2. Valores de los case
+  - 2.3. Bloque default
+  - 2.4. Switch con valores String
