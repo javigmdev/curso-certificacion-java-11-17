@@ -58,3 +58,18 @@
   - 4.1. Break
   - 4.2. Continue
   - 4.3. Bucles etiquetados
+
+**Sección 3**: Programación orientada a objetos (POO)
+
+- 1. Creación de métodos y sobrecarga
+  - 1.1. Definición y estructura
+  - 1.2. Llamada a método
+  - 1.3. Sobrecarga de métodos
+- 2. Paso de parámetros a métodos
+  - 2.1. Paso de tipos primitivos
+  - 2.2. Paso de tipos objeto
+  - 2.3. Paso de String
+- 3. Miembros estáticos
+  - 3.1. Métodos estáticos
+  - 3.2. Atrubutos estáticos
+  - 3.3. Bloques estáticos
