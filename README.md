@@ -73,3 +73,16 @@
   - 3.1. Métodos estáticos
   - 3.2. Atrubutos estáticos
   - 3.3. Bloques estáticos
+- 4. Creación e inicialización de instancias
+  - 4.1. Constructores
+  - 4.2. Constructor por defecto
+  - 4.3. Sobrecarga de constructores
+  - 4.4. Llamadas a otro constructor
+  - 4.5. Bloque de inicialización de instancia
+- 5. Modificadores de acceso
+  - 5.1. Función y tipos
+  - 5.2. Public
+  - 5.3. Default
+  - 5.4. Private
+- 6. Encapsulación
+  - 6.1. Definición
