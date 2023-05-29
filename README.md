@@ -86,3 +86,8 @@
   - 5.4. Private
 - 6. Encapsulación
   - 6.1. Definición
+- 7. Herencia
+  - 7.1. Definición
+  - 7.2. Herencia de Object
+  - 7.3. Constructores
+  - 7.4. Sobrescritura de métodos
