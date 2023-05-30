@@ -91,3 +91,4 @@
   - 7.2. Herencia de Object
   - 7.3. Constructores
   - 7.4. Sobrescritura de métodos
+  - 7.5. Tipo de objeto y tipo de referencia

@@ -164,3 +164,45 @@
        public void test() throws FileNotFoundException {} // subtipo de IOException
   }
   ```
+
+<br>
+
+# 7.5. Tipo de objeto y tipo de referencia
+
+- En java se puede asignar una referencia a un objeto de un tipo en una variable del tipo de su superclase
+  ```
+  Object object = new String("hello");
+  ```
+- El tipo de la referencia (_Object_) es superclase del tipo del objeto (_String_)
+- Se aplica a varios niveles
+
+  ```
+  class ClassB extends ClassA {}
+  class ClassC extends ClassB {}
+
+  ClassA classA = new ClassC();
+  ```
+
+- Con esta referencia se puede llamar a métodos del objeto, pero sólo a aquellos que han sido heredados o sobrescritos
+
+  ```
+  Object object = new String("hello");
+  System.out.println(object.toString()); // correcto, llamada a método toString() de String
+
+  if(object.equals("hello")) {} // correcto, llamada a equals() de String
+
+  System.out.println(object.length()); // error de compilación, length() es un método propio de String, no existe en object
+  ```
+
+## Casting entre tipos objeto
+
+- Para obtener una referencia al tipo original del objeto se puede efectuar un casting
+  ```
+  String s = (String)object;
+  ```
+- El compilador permite hacer casting de una referencia de un tipo a cualqiuer tipo de sus subclases, pero si el objeto no es de ese tipo se producirá una _ClassCastException_
+  ```
+  Integer number = (Integer)object;
+  // Esta instrucción compila correctamente, pero al ejecutarla se producirá una excepción ClassCastException,
+  // ya que el tipo de objeto referenciado por object es String, no Integer
+  ```
