@@ -92,3 +92,5 @@
   - 7.3. Constructores
   - 7.4. Sobrescritura de métodos
   - 7.5. Tipo de objeto y tipo de referencia
+  - 7.6. Clases abstractas y polimorfismo
+  - 7.7. Interfaces
