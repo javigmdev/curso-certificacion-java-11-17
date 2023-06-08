@@ -553,3 +553,54 @@
        }
   }
   ```
+
+## Interfaces funcionales
+
+- Concepto introducido en java 8 para denominar a las interfaces que disponen de un único método abstracto
+- Se pueden crear implementaciones de estas interfaces a través de expresiones lambda
+- Pueden, opcionalmente, estar definidas con la anotación _@FunctionalInterface_
+- Ejemplos interfaces funcionales
+
+  ```
+  interface InterfaceA {
+       default void defaultMethod() {
+            System.out.println("default InterfaceA");
+       }
+
+       int method();
+  }
+  ```
+
+  ```
+  interface InterfaceB extends InterfaceA {
+       static void print() {
+            System.out.println("static Interface B");
+       }
+  }
+  ```
+
+  ```
+  @FunctionalInterface
+  interface InterfaceC {
+       void method();
+       String toString();
+       // los métodos abstractos que coincidan con algún método de Object NO se tiene en cuenta de cara a la característica de ser funcional
+  }
+  ```
+
+- Ejemplos no funcionales
+
+  ```
+  interface InterfaceD extends InterfaceA {
+       int method(int p); // no puede haber dos abstractos, aunque sea sobrecarga
+  }
+  ```
+
+  ```
+  interface InterfaceE extends InterfaceA {
+       // implementa método, por lo que ya no tiene métodos abstractos
+       default int method() {
+            return 10;
+       }
+  }
+  ```

@@ -94,3 +94,14 @@
   - 7.5. Tipo de objeto y tipo de referencia
   - 7.6. Clases abstractas y polimorfismo
   - 7.7. Interfaces
+- 8. Clases anidadas
+  - 8.1. Definición y tipos
+  - 8.2. Clases estándares
+  - 8.3. Clases estáticas
+  - 8.4. Clases locales a método
+  - 8.5. Clases anónimas
+- 9. Enumeraciones
+  - 9.1. Definición y estructura
+  - 9.2. Uso en instrucciones de control
+  - 9.3. Constructores
+  - 9.4. Métodos de una enumeración
