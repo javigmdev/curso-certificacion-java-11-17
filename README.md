@@ -105,3 +105,18 @@
   - 9.2. Uso en instrucciones de control
   - 9.3. Constructores
   - 9.4. Métodos de una enumeración
+
+**Sección 4**: Colecciones
+
+- 1. Arrays de una dimensión
+  - 1.1. Definición
+  - 1.2. Declaración e instancia
+  - 1.3. Acceso a elementos y creación abreviada
+  - 1.4. Arrays son objetos
+  - 1.5. Tamaño de un array
+  - 1.6. Recorrido de un array
+- 2. Arrays multidimensionales
+  - 2.1. Fundamentos
+  - 2.2. Recorrido
+  - 2.3. Arrays irregulares
+  - 2.4. Creación abreviada
