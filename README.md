@@ -120,3 +120,8 @@
   - 2.2. Recorrido
   - 2.3. Arrays irregulares
   - 2.4. Creación abreviada
+- 3. Genéricos
+  - 3.1. Definición
+  - 3.2. Tipo de genérico como dato
+  - 3.3. Restricciones de tipo
+  - 3.4. Métodos genéricos
