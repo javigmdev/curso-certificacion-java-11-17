@@ -125,3 +125,20 @@
   - 3.2. Tipo de genérico como dato
   - 3.3. Restricciones de tipo
   - 3.4. Métodos genéricos
+- 4. Iterables y colecciones
+  - 4.1. Iterables
+  - 4.2. Interfaz Iterator<E>
+  - 4.3. Collection
+- 5. Listas
+  - 5.1. Introducción
+  - 5.2. Clases e interfaces
+  - 5.3. Creación
+  - 5.4. Principales métodos
+  - 5.5. Recorrido
+- 6. Mapas
+  - 6.1. Características
+  - 6.2. Clases e interfaces
+  - 6.3. Creación
+  - 6.4. Métodos HashMap
+  - 6.5. Recorrido
+  - 6.6. TreeMap
