@@ -142,3 +142,15 @@
   - 6.4. Métodos HashMap
   - 6.5. Recorrido
   - 6.6. TreeMap
+- 7. Conjuntos
+  - 7.1. Características
+  - 7.2. Clases e interfaces
+  - 7.3. Creación
+  - 7.4. Métodos HashSet
+  - 7.5. Recorrido
+- 8. Colas dobles
+  - 8.1. Características
+  - 8.2. Clases e interfaces
+  - 8.3. Creación
+  - 8.4. Métodos Deque
+  - 8.5. Recorrido
