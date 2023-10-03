@@ -154,3 +154,11 @@
   - 8.3. Creación
   - 8.4. Métodos Deque
   - 8.5. Recorrido
+- 9. Ordenación de arrays y listas
+  - 9.1. Fundamentos sobre la ordenación
+  - 9.2. Interfaz Comparable
+  - 9.3. Ordenación de arrays
+  - 9.4. Ordenación de listas
+  - 9.5. Interfaz Comparator
+  - 9.6. Búsqueda binaria en arrays
+  - 9.7. Comparación de arrays
