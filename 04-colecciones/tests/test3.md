@@ -130,7 +130,9 @@ Comparator<Integer> cin = new Comparator<?>(){
 ```
 
 ```
-e. var cin = new Comparator<Integer>(){
+e.
+
+var cin = new Comparator<Integer>(){
      public int compare(Integer i1, Integer i2){
           return i1.compareTo(i2);
      }
@@ -157,11 +159,31 @@ System.out.println(x + " " + y);
 
 <br>
 
+**Question 6**: What will the following code print when run?
+
+```
+Deque<Integer> d = new ArrayDeque<>();
+d.push(1);
+d.push(2);
+d.push(3);
+System.out.print(d.remove()+" ");
+System.out.print(d.peek()+" ");
+System.out.print(d.size());
+```
+
+- a. 3 2 1
+- b. 1 2 2
+- c. 3 2 2
+- d. 1 3 1
+
+<br>
+
 **Results**:
 
-- **Question 1**:
-- **Question 2**:
-- **Question 3**:
-- **Question 4**:
-- **Question 5**:
-- **Question 6**:
+- **Question 1**: e
+- **Question 2**: a
+- **Question 3**: b
+- **Question 4**: b y c (no se basa en el orden natural de los strings, si no en el número de caracteres, por lo tanto c tiene un caracter, existe y está en la posición 0)
+- **Question 5**: b, e
+- **Question 6**: a
+- **Question 7**: c
