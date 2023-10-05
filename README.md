@@ -162,3 +162,15 @@
   - 9.5. Interfaz Comparator
   - 9.6. Búsqueda binaria en arrays
   - 9.7. Comparación de arrays
+
+**Sección 5**: Modularidad
+
+- 1. Introducción
+  - 1.1. ¿Qué es un módulo?
+  - 1.2. Descriptor de módulo
+  - 1.3. Ventajas
+- 2. Compilación y ejecución de módulos
+  - 2.1. Estructura de ejemplo
+  - 2.2. Compilación de un módulo
+  - 2.3. Ejecución de un módulo
+  - 2.4. Abreviaturas
