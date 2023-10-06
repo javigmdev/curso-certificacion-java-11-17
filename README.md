@@ -174,3 +174,16 @@
   - 2.2. Compilación de un módulo
   - 2.3. Ejecución de un módulo
   - 2.4. Abreviaturas
+- 3. Empaquetado de módulos
+  - 3.1. Empaquetado en en archivos .jar
+  - 3.2. Empaquetado en archivos .jmod
+  - 3.3. Comando jdeps
+- 4. Módulos anónimos y automáticos
+  - 4.1. Móldulos anónimos
+  - 4.2. Módulos automáticos
+  - 4.3. Ejemplo
+- 5. Otras características de la modularidad
+  - 5.1. Exportación específica
+  - 5.2. Dependencias transitivas
+  - 5.3. Servicios
+  - 5.4. Acceso por reflexión
