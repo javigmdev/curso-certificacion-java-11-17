@@ -187,3 +187,11 @@
   - 5.2. Dependencias transitivas
   - 5.3. Servicios
   - 5.4. Acceso por reflexión
+
+**Sección 6**: Lambdas y Streams
+
+- 1. Expresiones lambda e interfaces funcionales
+  - 1.1. Interfaz funcional
+  - 1.2. ¿Qué es una expresión lambda?
+  - 1.3. Inferencia de tipos
+  - 1.4. Comparator con lambdas
