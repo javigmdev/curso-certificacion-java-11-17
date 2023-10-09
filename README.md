@@ -195,3 +195,15 @@
   - 1.2. ¿Qué es una expresión lambda?
   - 1.3. Inferencia de tipos
   - 1.4. Comparator con lambdas
+- 2. Interfaces java.util.function
+  - 2.1. Introducción
+  - 2.2. Interfaz Predicate
+  - 2.3. Interfaz Function
+  - 2.4. Interfaz Consumer
+  - 2.5. Interfaz Supplier
+  - 2.6. Interfaz UnaryOperator
+  - 2.7. Interfaces para tipos primitivos
+- 3. Streams
+  - 3.1. Introducción
+  - 3.2. Creación
+  - 3.3. Tipos de métodos
