@@ -207,3 +207,14 @@
   - 3.1. Introducción
   - 3.2. Creación
   - 3.3. Tipos de métodos
+- 4. Métodos Streams
+  - 4.1. Conteo y procesado (finales)
+  - 4.2. Extracción de datos (intermedios)
+  - 4.3. Comprobacions (finales)
+  - 4.4. Filtrado (intermedios)
+  - 4.5. Búsqueda (finales)
+  - 4.6. La clase Optional<T>
+  - 4.7. Obtención de extremos (finales)
+  - 4.8. Transformación (intermedios)
+  - 4.9. Stream de tipos primitivos
+  - 4.10. Transformación y aplanamiento (intermedios)
