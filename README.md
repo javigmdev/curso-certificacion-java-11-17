@@ -211,10 +211,17 @@
   - 4.1. Conteo y procesado (finales)
   - 4.2. Extracción de datos (intermedios)
   - 4.3. Comprobacions (finales)
-  - 4.4. Filtrado (intermedios)
+  - 4.4. Filtrado (intermedio)
   - 4.5. Búsqueda (finales)
   - 4.6. La clase Optional<T>
   - 4.7. Obtención de extremos (finales)
   - 4.8. Transformación (intermedios)
   - 4.9. Stream de tipos primitivos
   - 4.10. Transformación y aplanamiento (intermedios)
+  - 4.11. Procesamiento intermedio (intermedio)
+  - 4.12. Ordenación (intermedios)
+  - 4.13. Reducción (final)
+  - 4.14. Reducción a colección (final)
+  - 4.15. Agrupación
+  - 4.16. Partición
+  - 4.17. Otras implementaciones de Collector
