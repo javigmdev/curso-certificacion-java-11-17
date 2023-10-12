@@ -225,3 +225,10 @@
   - 4.15. Agrupación
   - 4.16. Partición
   - 4.17. Otras implementaciones de Collector
+- 5. Referencias a métodos
+  - 5.1. Concepto y uso
+  - 5.2. Tipos y casos
+- 6. Streams paralelos
+  - 6.1. Fundamentos
+  - 6.2. Creación
+  - 6.3. Uso
