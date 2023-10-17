@@ -232,3 +232,25 @@
   - 6.1. Fundamentos
   - 6.2. Creación
   - 6.3. Uso
+
+**Sección 7**: Entrada-salida y BBDD
+
+- 1. Entrada-salida java.io
+  - 1.1. Salida
+  - 1.2. Escritura en consola
+  - 1.3. Escritura en un fichero
+  - 1.4. Entrada
+  - 1.5. Lectura por teclado
+  - 1.6. Lectura de un fichero
+  - 1.7. La clase File
+- 2. Serialización
+  - 2.1. Características
+  - 2.2. Interfaz Serializable
+  - 2.3. Escritura de objeto en un fichero
+  - 2.4. Lectura de objeto de un fichero
+  - 2.5. Atributos transient
+- 3. Entrada-salida java.nio
+  - 3.1. Paquete java.nio.files
+  - 3.2. Interfaz Path
+  - 3.3. Métodos de Path
+  - 3.4. Lectura de un fichero con Files
