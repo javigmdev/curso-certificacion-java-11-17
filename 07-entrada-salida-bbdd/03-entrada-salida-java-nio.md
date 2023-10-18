@@ -88,3 +88,46 @@
     data.forEach(line -> System.out.prinln(line));
     ```
   - _BufferedReader newBufferedReader(Path path)_: devuelve un objeto _BufferedReader_ para realizar la lectura de forma clásica
+
+<br>
+
+# 3.5. Escritura en ficheros con Files
+
+- Para realizar la escritura en ficheros, la clase _Files_ proporciona los siguientes métodos
+  - _writeString(Path path, CharSequence csq, CharSet cs, OpenOption... options)_: escribe en el fichero indicado como primer parámetro, la cadena especificada en el segundo, utilizando el juego de caracteres del tercero y las opciones de escritura del cuarto
+    ```
+    try {
+         Path path = Path.of("c:\\user\\mydata.txt");
+         Files.writeString(p1, "new text",
+                             Charset.forName("UTF-8"),
+                             StandardOpenOption.APPEND); // escritura en modo append
+    } catch(IOException ex) {
+         ex.printStackTrace();
+    }
+    ```
+    - _write(Path path, Iterable<? extends CharSequence>, Charset cs, OpenOption... options)_: escribe en el fichero indicado como primer parámetro, la colección de cadenas especifica en el segundo, utilizando el juego de caracteres del tercero y las opciones de escritura del cuarto
+    ```
+    List<String> days = List.of("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday");
+    try {
+         Path path = Path.of("c:\\user\\mydata.txt");
+         Files.write(path, days,
+                             Charset.forName("UTF-8"),
+                             StandardOpenOption.APPEND);
+    } catch(IOException ex) {
+         ex.printStackTrace();
+    }
+    ```
+
+<br>
+
+# 3.6. Otros métodos de Files
+
+- _static Path copy(Path source, Path target, CopyOption... options)_: copia el contenido de un fichero en otro
+  - Si el fichero _target_ ya existe y no se indica opción, se produce una excepción. Aunque si ambas rutas son iguales, el método se ejecuta si cambios
+  - Si _source_ es un directorio, se creará en _target_ un directorio vacío
+  - Si _target_ es un directorio, _FileAlreadyExistsException_
+  - Si el tercer parámetro es _StandardCopyOption.REPLACE_EXISTING_, el fichero _target_ será sustituido en caso de que exista
+  - Si el tercer parámetro incluye _StandardCopyOption.COPY_ATTRIBUTES_, se copiarán también las propiedades del fichero origen en el destino
+- _static void delete(Path path)_: elimina el fichero si existe, si no se produce una excepción. Si es un directorio, deberá estar vacío
+- _static void deleteIfExists(Path path)_: elimina el fichero si existe, sino no hace nada. Si es un directorio, deberá estar vacío
+- _static Path createFile(Path path, FileAttribute<?> ...attrs)_: crea el fichero indicado vacío. Si el fichero ya existe, se produce una excepción

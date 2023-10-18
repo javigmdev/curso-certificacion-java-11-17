@@ -254,3 +254,5 @@
   - 3.2. Interfaz Path
   - 3.3. Métodos de Path
   - 3.4. Lectura de un fichero con Files
+  - 3.5. Escritura en ficheros con Files
+  - 3.6. Otros métodos de Files
