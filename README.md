@@ -256,3 +256,12 @@
   - 3.4. Lectura de un fichero con Files
   - 3.5. Escritura en ficheros con Files
   - 3.6. Otros métodos de Files
+- 4. Base de datos
+  - 4.1. Fundamentos JDBC
+  - 4.2. API JDBC
+  - 4.3. Pasos para operar contra una BD
+  - 4.4. Carga del driver
+  - 4.5. Establecimiento de la conexión
+  - 4.6. Ejecución de consulta SQL
+  - 4.7. Manipulación de resultados
+  - 4.8. Cierre de la conexión
