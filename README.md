@@ -265,3 +265,27 @@
   - 4.6. Ejecución de consulta SQL
   - 4.7. Manipulación de resultados
   - 4.8. Cierre de la conexión
+
+**Sección 8**: Excepciones
+
+- 1. Excepciones y tipos
+  - 1.1. Concepto
+  - 1.2. Clases
+  - 1.3. Clasificación
+  - 1.4. Excepciones unchecked
+  - 1.5. Errores
+- 2. Captura de excepciones
+  - 2.1. Bloques try catch
+  - 2.2. Multicatch
+  - 2.3. Métodos
+  - 2.4. Bloque finally
+- 3. Lanzamiento y propagación de excepciones
+  - 3.1. Propagación
+  - 3.2. Lanzamiento
+- 4. Excepciones personalizadas
+  - 4.1. Introducción
+- 5. Try con recursos
+  - 5.1. Cierre de objetos
+  - 5.2. Interfaz AutoCloseable
+  - 5.3. Try con recursos
+  - 5.4. Cierre con try con recursos
