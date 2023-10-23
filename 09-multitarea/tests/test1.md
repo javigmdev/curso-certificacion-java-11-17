@@ -74,6 +74,6 @@ Which one is correct?
 
 **Results**:
 
-- **Question 1**:
-- **Question 2**:
-- **Question 3**:
+- **Question 1**: b
+- **Question 2**: d
+- **Question 3**: d
