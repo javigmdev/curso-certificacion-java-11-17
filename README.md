@@ -289,3 +289,13 @@
   - 5.2. Interfaz AutoCloseable
   - 5.3. Try con recursos
   - 5.4. Cierre con try con recursos
+
+**Sección 9**: Multitarea
+
+- 1. Multitarea clásica
+  - 1.1. Definición
+  - 1.2. Implementación de tareas
+  - 1.3. Extensión de la clase Thread
+  - 1.4. Implementación de la interfaz Runnable
+  - 1.5. Condiciones de carrera
+  - 1.6. Sincronización
