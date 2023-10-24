@@ -299,3 +299,10 @@
   - 1.4. Implementación de la interfaz Runnable
   - 1.5. Condiciones de carrera
   - 1.6. Sincronización
+- 2. Nueva multitarea
+  - 2.1. Clases e interfaces
+  - 2.2. Interfaz ExecutorService
+  - 2.3. Interfaz Callable
+  - 2.4. Interfaz Future
+  - 2.5. Sincronización
+  - 2.6. Colecciones para concurrencia
