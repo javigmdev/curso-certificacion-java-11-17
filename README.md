@@ -315,3 +315,14 @@
   - 4.2. Creación
   - 4.3. Sincronización de los hilos
   - 4.4. Ejemplo
+
+**Sección 10**: Anotaciones, localización y seguridad
+
+- 1. Anotaciones
+  - 1.1. Fundamentos
+  - 1.2. Anotaciones personalizadas
+  - 1.3. Metaanotaciones
+  - 1.4. Ejemplo
+  - 1.5. Metaanotación @Repetable
+  - 1.6. Anotación @SuppressWarnings
+  - 1.7. Otras anotaciones especiales
