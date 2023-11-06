@@ -319,6 +319,7 @@
 **Sección 10**: Anotaciones, localización y seguridad
 
 - 1. Anotaciones
+
   - 1.1. Fundamentos
   - 1.2. Anotaciones personalizadas
   - 1.3. Metaanotaciones
@@ -326,3 +327,17 @@
   - 1.5. Metaanotación @Repetable
   - 1.6. Anotación @SuppressWarnings
   - 1.7. Otras anotaciones especiales
+
+- 2. Localización
+  - 2.1. Fundamentos
+  - 2.2. Archivos de recursos
+  - 2.3. Objeto Locale
+  - 2.4. Carga del archivo de recursos
+  - 2.5. Formateado de datos
+- 3. Codificación segura de aplicaciones
+  - 3.1. Fundamentos
+  - 3.2. Denegación de servicio
+  - 3.3. Confidencialidad
+  - 3.4. Inyección
+  - 3.5. Accesibilidad
+  - 3.6. Validación de datos
