@@ -1,4 +1,4 @@
-**Question 1**: GConsider the following piece of code, which is run in an environment where the default locale is English - US:
+**Question 1**: Consider the following piece of code, which is run in an environment where the default locale is English - US:
 
 ```
 Locale.setDefault(new Locale("fr", "CA")); //Set default to French Canada
@@ -50,5 +50,5 @@ What will be the output?
 **Results**:
 
 - **Question 1**: b
-- **Question 2**: b y c
+- **Question 2**: b, c
 - **Question 3**: d

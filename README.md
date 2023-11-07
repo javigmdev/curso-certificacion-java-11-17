@@ -341,3 +341,7 @@
   - 3.4. Inyección
   - 3.5. Accesibilidad
   - 3.6. Validación de datos
+  - 3.7. Mutabilidad
+  - 3.8. Construcción de objetos
+  - 3.9. Serialización
+  - 3.10. Control de acceso

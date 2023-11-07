@@ -54,6 +54,6 @@ Identify correct usages (2 options)
 
 **Results**:
 
-- **Question 1**: c y d
-- **Question 2**: c y d
-- **Question 3**: c y d
+- **Question 1**: c, d
+- **Question 2**: c, d
+- **Question 3**: c, d

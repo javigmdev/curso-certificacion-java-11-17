@@ -92,3 +92,79 @@
 
 - No se debe confiar solo en la validación del lado cliente
 - Definir envoltorios alrededor de métodos nativos
+
+<br>
+
+# 3.7. Mutabilidad
+
+- Crear copias de valores de salida mutables. Cuando un método devuelve un dato que es mutable, preferible devolver una copia
+
+  ```
+  public class CopyOutput {
+       private final java.util.Date date;
+
+       public java.util.Date getDate() {
+            return (java.util.Date) date.clone();
+       }
+  }
+  ```
+
+- No exponer colecciones modificables
+- Definir atributos públicos estáticos como finales
+
+<br>
+
+# 3.8. Construcción de objetos
+
+- Evitar constructores públicos de clases sensibles
+- No establecer valores de atributos en el constructor, hasta que todas las comprobaciones se hayan realizado
+- Evitar desde los constructores llamadas a métodos que pueden ser sobrescritos
+  ```
+  public class Test {
+       private int data;
+       public Test(int x) {
+            if(x < 10) { ... } // validación de parámetros antes de asignación
+            method(); // llamada no segura
+       }
+       public void method() { ... }
+  }
+  ```
+
+<br>
+
+# 3.9. Serialización
+
+- Evitar la serialización de clases sensibles
+- Proteger datos sensibles durante la serialización
+- Evitar serializar determinados datos durante el proceso de serialización, definiéndolos como _transient_
+  ```
+  public class Profile implements Serializable {
+       private transient String password;
+  }
+  ```
+- Ser consciente de que durante el proceso de deserialización, se crea un objeto de la clase sin invocar a constructor alguno
+
+<br>
+
+# 3.10. Control de acceso
+
+- Invocaciones seguras mediante _doPrivileged_
+
+  ```
+  public class LibClass {
+     private static final String OPTIONS = "xx.lib.options";
+
+     public static String getOptions() {
+          return AccessController.doPrivileged(
+               new PrivilegedAction<String>() {
+                    public String run() {
+                         // this is checked by SecurityManager
+                         return System.getProperty(OPTIONS); // OPTIONS: el valor debe estar "controlado", no permitir cualquier entrada
+                    }
+               }
+          );
+     }
+  }
+  ```
+
+- Las llamadas a propiedades de sistema se realizan desde _doPrivileged_ para que, quien utilice la clase, acceda con los permisos de la misma
