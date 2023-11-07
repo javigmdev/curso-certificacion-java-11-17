@@ -345,3 +345,10 @@
   - 3.8. Construcción de objetos
   - 3.9. Serialización
   - 3.10. Control de acceso
+
+**Sección 11**: Certificación Java SE 17
+
+- 1. Novedades en la instrucción switch
+  - 1.1. Múltiples valores en case
+  - 1.2. Expresiones switch
+- 2.
