@@ -351,4 +351,12 @@
 - 1. Novedades en la instrucción switch
   - 1.1. Múltiples valores en case
   - 1.2. Expresiones switch
-- 2.
+- 2. Bloques de texto
+  - 2.1. Triples comillas
+  - 2.2. Espacios
+  - 2.3. Eliminación de saltos de línea
+  - 2.4. Indentación
+  - 2.5. Método stripIndent
+- 3. Coincidencia de patrones con instanceof
+  - 3.1. Operador instanceof
+  - 3.2. Nueva funcionalidad
