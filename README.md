@@ -360,3 +360,9 @@
 - 3. Coincidencia de patrones con instanceof
   - 3.1. Operador instanceof
   - 3.2. Nueva funcionalidad
+- 4. Records
+  - 4.1. Características y definición
+- 5. Sealed class
+  - 5.1. Introducción
+  - 5.2. Sealed interface
+  - 5.3. Cláusula permits opcional
