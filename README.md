@@ -366,3 +366,8 @@
   - 5.1. Introducción
   - 5.2. Sealed interface
   - 5.3. Cláusula permits opcional
+- 6. Clases de fecha y hora
+  - 6.1. Manipulación de fechas con java.time
+  - 6.2. Creación de objetos
+  - 6.3. Parseado
+  - 6.4. Manipulación de fechas/horas

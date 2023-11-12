@@ -83,7 +83,7 @@ Where is the compilation fail?:
 
 **Results**:
 
-- **Question 1**:
-- **Question 2**:
-- **Question 3**:
-- **Question 4**:
+- **Question 1**: b
+- **Question 2**: a, d
+- **Question 3**: c, d
+- **Question 4**: d
