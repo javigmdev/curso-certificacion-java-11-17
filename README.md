@@ -371,3 +371,10 @@
   - 6.2. Creación de objetos
   - 6.3. Parseado
   - 6.4. Manipulación de fechas/horas
+- 7. Instantes e intervalos de tiempo
+  - 7.1. Instante de tiempo
+  - 7.2. Periodos de tiempo
+  - 7.3. Intervalo entre fechas
+  - 7.4. Duraciones
+  - 7.5. Intervalo entre horas
+- 8. Cambios de hora
